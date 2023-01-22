@@ -1,0 +1,50 @@
+body {
+    background-color: #1d2026;
+    background-size: cover;
+    background-position: center;
+    font-family: monospace;
+}
+h2 {
+    font-style: normal;
+    color: white;
+}
+.members {
+    background: #1d2026;
+    min-height: 100vh;
+    /* min-width: 100vh; */
+    width: 100%;
+    color: white;
+    position: absolute;
+}
+.photos {
+    position: absolute;
+    padding: 10px 10%
+    
+}
+.Eyad {
+    width: 400px;
+    clip-path: circle();
+    align-items: center;
+}
+.Mohammed {
+    width: 400px;
+    clip-path: circle();
+    align-items: center;
+}
+.mousa { 
+    width: 400px;
+    clip-path: circle();
+    align-items: center;
+    
+
+}
+img{
+    display: flex;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
+
+}
+*{
+    text-align: center;
+}
