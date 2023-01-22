@@ -69,6 +69,30 @@
               <label>tiktok Link <span></span></label>
               <input type="text" name="tiktok-link" id="tiktok-link" />
             </p>
+            <div id="demoNFC">
+              <input
+                name="nfc-link"
+                type="text"
+                id="demoT"
+                value="enter the link to upload to nfc"
+                required
+              />
+              <input
+                type="button"
+                id="demoW"
+                value="Write"
+                onclick="nfc.write();"
+              />
+              <input
+                type="button"
+                id="demoR"
+                value="Read"
+                onclick="nfc.read()"
+              />
+            </div>
+
+            <!-- (B) "CONSOLE MESSAGES" -->
+            <div id="demoMSG"></div>
 
             <!-- ///////////////////////////////////////////eyad work///////////////////////////////////////////////////// -->
             <p class="message-field full">
@@ -88,7 +112,7 @@
 
     <!-- ///////////////////////attention here i put js main of the 3rd page////////////////////////////////////// -->
 
-    <script src="main.js"></script>
+    <script src="main1.js"></script>
 
     <!-- ///////////////////////attention here i put js main of the 3rd page////////////////////////////////////// -->
   </body>

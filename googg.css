@@ -111,6 +111,10 @@ ul {
     grid-column: 1 / 3;
 }
 
+#demoNFC{
+  grid-area: nfc-link;
+  grid-column: 1 / 3;
+}
 
 
 
